@@ -3,7 +3,7 @@ import BadgeComponent from "./components/BadgeComponent";
 
 function App() {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 mt-[200px]">
       <div className="flex items-center gap-7">
         <BadgeComponent type="neutral" size="small" label="Label" />
         <BadgeComponent type="neutral" size="medium" label="Label" />
